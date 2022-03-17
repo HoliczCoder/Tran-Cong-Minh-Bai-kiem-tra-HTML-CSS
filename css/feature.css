@@ -1,0 +1,219 @@
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.sidebar {
+  padding-top: 10px;
+}
+
+.sidebar .container .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.sidebar .container .nike {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 700;
+}
+
+.sidebar .container .looking {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.side-cont {
+  padding-top: 70px;
+}
+
+.side-cont .cart .button button {
+  border: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: white;
+}
+
+.side-cont .create {
+  color: red;
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.side-cont .react {
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+
+.side-cont .lorem {
+  padding-top: 30px;
+}
+
+.side-cont .opt .color {
+  margin-right: 100px;
+}
+
+.side-cont .opt .color .circle .circle-item {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.side-cont .add-cart button {
+  background-color: red;
+  border: none;
+  width: 150px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.shoes {
+  position: relative;
+}
+
+.shoes .round-blue {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  background-color: #3c3cb4;
+  border-radius: 250px;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  right: 0px;
+  min-height: 400px;
+  min-width: 400px;
+  max-height: 500px;
+  max-width: 500px;
+}
+
+.shoes .round-red {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  background-color: #b43c5a;
+  border-radius: 100px;
+  top: 50%;
+  right: 70%;
+  min-height: 150px;
+  min-width: 150px;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.shoes .thumb {
+  position: relative;
+  top: 100px;
+  left: 0px;
+  right: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.shoes .thumb img {
+  width: 100%;
+}
+
+.change {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.change .content {
+  margin-right: 20px;
+}
+
+.change .right-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-right: 20px;
+}
+
+.change .right-btn .prev {
+  width: 100px;
+  height: 50px;
+  background-color: palevioletred;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.change .right-btn .prev button {
+  background-color: palevioletred;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.change .right-btn .next {
+  width: 100px;
+  height: 50px;
+  background-color: #70d8ca;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.change .right-btn .next button {
+  background-color: #70d8ca;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  .round-red {
+    min-width: unset !important;
+    min-height: unset !important;
+    max-width: 150px !important;
+    max-height: 150px !important;
+    width: 30vw !important;
+    height: 30vw !important;
+    right: 60% !important;
+  }
+  .round-blue {
+    min-width: unset !important;
+    min-height: unset !important;
+    max-width: 450px !important;
+    max-height: 450px !important;
+    width: 60vw !important;
+    height: 60vw !important;
+  }
+}
+/*# sourceMappingURL=feature.css.map */

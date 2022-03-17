@@ -1,0 +1,179 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.sidebar {
+    padding-top: 10px;
+    .container {
+        .menu {
+            display: flex;
+            justify-content: start;
+        }
+        .nike {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+        }
+        .looking {
+            display: flex;
+            justify-content: end;
+        }
+    }
+}
+
+.side-cont {
+    padding-top: 70px;
+    .cart {
+        .button {
+            button {
+                border: none;
+                margin-left: 5px;
+                margin-right: 5px;
+                background-color: white;
+            }
+        }
+    }
+    .create {
+        color: red;
+        font-size: 50px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .react {
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 70px;
+        text-transform: uppercase;
+    }
+    .lorem {
+        padding-top: 30px;
+    }
+    .opt {
+        .cart {}
+        .color {
+            margin-right: 100px;
+            .circle {
+                .circle-item {
+                    width: 20px;
+                    height: 20px;
+                    background-color: red;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+    .add-cart {
+        button {
+            background-color: red;
+            border: none;
+            width: 150px;
+            border-radius: 20px;
+            padding: 5px;
+        }
+    }
+}
+
+.shoes {
+    position: relative;
+    .round-blue {
+        position: absolute;
+        width: 25vw;
+        height: 25vw;
+        background-color: rgb(60, 60, 180);
+        border-radius: 250px;
+        top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0px;
+        right: 0px;
+        min-height: 400px;
+        min-width: 400px;
+        max-height: 500px;
+        max-width: 500px;
+    }
+    .round-red {
+        position: absolute;
+        width: 10vw;
+        height: 10vw;
+        background-color: rgb(180, 60, 90);
+        border-radius: 100px;
+        top: 50%;
+        right: 70%;
+        min-height: 150px;
+        min-width: 150px;
+        max-height: 200px;
+        max-width: 200px;
+    }
+    .thumb {
+        position: relative;
+        top: 100px;
+        left: 0px;
+        right: 0px;
+        height: 100%;
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.change {
+    display: flex;
+    justify-content: space-between;
+    .content {
+        margin-right: 20px;
+    }
+    .right-btn {
+        display: flex;
+        justify-content: end;
+        margin-right: 20px;
+        .prev {
+            width: 100px;
+            height: 50px;
+            background-color: palevioletred;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            button {
+                background-color: palevioletred;
+                border: none;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+        .next {
+            width: 100px;
+            height: 50px;
+            background-color: rgb(112, 216, 202);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            button {
+                background-color: rgb(112, 216, 202);
+                border: none;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .round-red {
+        min-width: unset !important;
+        min-height: unset !important;
+        max-width: 150px !important;
+        max-height: 150px !important;
+        width: 30vw !important;
+        height: 30vw !important;
+        right: 60% !important;
+    }
+    .round-blue {
+        min-width: unset !important;
+        min-height: unset !important;
+        max-width: 450px !important;
+        max-height: 450px !important;
+        width: 60vw !important;
+        height: 60vw !important;
+    }
+}
